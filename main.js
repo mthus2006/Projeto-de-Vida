@@ -15,4 +15,13 @@ for (let i=0;i <botoes.length;i++){
 const tempoObjetivo2 = new Date("2023-12-05T00:00:00");
 const tempoObjetivo3 = new Date("2023-12-30T00:00:00");
 const tempoObjetivo4 = new Date ("2024-02-01T00:00:00");
+
 const tempos = [tempoObjetivo1, tempoObjetivo2, tempoObjetivo3, tempoObjetivo4];
+
+function calculaTempo(tempoObjetivo){
+    let tempoAtual = newDate();
+    let tempoFinal = tempoObjeto-tempoAtual;
+    let segundos = Math.floor(tempoFinal/1000);
+    let minutos = Math.floor(segundos/60);
+    let horas = Math.floor(minutos/60);
+}
